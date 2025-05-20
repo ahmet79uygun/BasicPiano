@@ -350,7 +350,7 @@ namespace PianoDesign
                 pictureBox.Size = new Size(20, 20);
                 pictureBox.Location = new Point(1090, 15);
                 panel.Controls.Add(pictureBox);
-                pictureBox.Image = Properties.Resources.record;
+                pictureBox.Image = Properties.Resources.nota;
                 pictureBox.SizeMode = PictureBoxSizeMode.StretchImage;
             }
             if (dosyaAdı == "hoparlorSol") //sol tarafa görüntünün güzel görünmesi ve piyanoya daha yakın bir hava yaratılabilmesi için hoparlöre benzer görsel oluşturur
